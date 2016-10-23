@@ -145,3 +145,11 @@ img {
       margin-left: -40px;
  }
 }
+
+@media screen and (min-width: 420px) and (max-width: 780px){
+  .col {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
