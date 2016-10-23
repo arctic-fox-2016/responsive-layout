@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Element Styles
 ==================================== */
 
@@ -36,7 +36,7 @@ img {
   max-width: 100%;
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -108,7 +108,40 @@ img {
   margin-bottom: 0;
 }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
+
+@media screen and (min-width: 780px){
+  header{
+    margin-bottom: 20px;
+  }
+  .col {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+ .name {
+   float: left;
+   margin-left: 50px;
+   margin-bottom: 30px;
+   display: block;
+ }
+ .main-nav a{
+   text-align: right;
+   float: right;
+   display: inline;
+ }
+ .main-nav{
+   display: inline;
+   width: 150px;
+   margin-left: -40px;
+ }
+ .main-nav > li{
+   display: inline;
+   width: 150px;
+      margin-left: -40px;
+ }
+}
